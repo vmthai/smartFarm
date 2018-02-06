@@ -1,0 +1,127 @@
+
+		body { font-family: THSaraban,AngsanaUPC, MS Sans Serif; font-size: 10pt; line-height: 22px;}
+		p.stb { text-indent: 2em; text-align: justify; }
+		p.mtb { text-indent: 4em;}
+		p.ltb { text-indent: 5em;}
+		p.center-page { text-indent: 28em;}
+
+		table {font-family: THSaraban,AngsanaUPC, MS Sans Serif; font-size: 10pt;  line-height: 22px;
+			margin-top: 2pt; margin-bottom: 5pt;margin-left: 26pt; 
+			border-collapse: collapse;  }
+
+		thead {	font-weight: bold; vertical-align: bottom; }
+		tfoot {	font-weight: bold; vertical-align: top; }
+		thead td { font-weight: bold; }
+		tfoot td { font-weight: bold; }
+
+		thead td, thead th, tfoot td, tfoot th { font-variant: small-caps; }
+
+		.headerrow td, .headerrow th { background-gradient: linear #b7cebd #f5f8f5 0 1 0 0.2;  }
+		
+
+		th {	/*font-weight: bold; */
+			vertical-align: middle; 
+			text-align:left; 
+			padding-left: 3px; 
+			padding-right: 3px; 
+			padding-top: 5px; 
+			padding-bottom: 2px; 
+			font-size: 10pt;
+		 }
+
+		td {
+			padding-left: 3px; 
+			vertical-align: middle; 
+			text-align:left; 
+			padding-right: 3px; 
+			padding-top: 5px; 
+			padding-bottom: 2px;
+			font-size: 10pt;
+			height: 22px;
+
+		 }
+
+		th.td-border-top, td.td-border-top {
+		    border-top: 1px solid black;
+		}
+		th.td-border-bottom, td.td-border-bottom { 
+			border-bottom:1pt solid black;
+		 }
+		td.td-padding-none {	padding: 0mm; }
+		th p { text-align: left; margin:0pt;  }
+		td p { text-align: left; margin:0pt;  }
+		table.table-border {
+		    border: 1px solid black;
+		}
+		table.widecells td {
+			padding-left: 5mm;
+			padding-right: 5mm;
+		}
+		table.tallcells td {
+			padding-top: 3mm;
+			padding-bottom: 3mm; 
+		}
+
+		hr.style1 {	width: 70%; height: 1px; 
+			text-align: center; color: #999999; 
+			margin-top: 8pt; margin-bottom: 8pt; }
+		hr.style2 {
+			border-top: 1px dashed #8c8b8b;margin-top: 8pt; margin-bottom: 8pt;
+		}
+		hr.style3 {
+			border-top: 1px dotted #8c8b8b;margin-top: 8pt; margin-bottom: 8pt;
+		}
+
+		hr.style4 {
+			background-color: #fff;
+			border-top: 2px dashed #8c8b8b;margin-top: 8pt; margin-bottom: 8pt;
+		}
+
+		hr.style5 {
+			background-color: #fff;
+			border-top: 2px dotted #8c8b8b;margin-top: 8pt; margin-bottom: 8pt;
+		}
+		a {	color: #000066; font-style: normal; text-decoration: underline; 
+			font-weight: normal; }
+
+		ul {	text-indent: 5mm; margin-bottom: 9pt; }
+		ol {	text-indent: 5mm; margin-bottom: 9pt; }
+
+		pre { font-family: THSaraban; font-size: 9pt; margin-top: 5pt; margin-bottom: 5pt; }
+
+		h1 {	font-weight: normal; font-size: 20pt; color: #000000; margin-top: 18pt; margin-bottom: 6pt; 
+			 border-bottom: 0.075cm solid #000000; 
+			text-align: ; page-break-after:avoid; }
+		h2 {	font-weight: bold; font-size: 18pt; color: #000000; margin-top: 6pt; margin-bottom: 10pt; border-top: 0; border-bottom: 0; 
+			text-align: ;  text-transform:uppercase; page-break-after:avoid; }
+		h3 {	font-weight: bold; font-size: 16pt; color: #000000; margin-top: 0pt; margin-bottom: 10pt; 
+			border-top: 0; border-bottom: 0; 
+			text-align: ; page-break-after:avoid; }
+		h4 {	font-weight: ; font-size: 13pt; color: #000000; margin-top: 10pt; margin-bottom: 10pt; 
+			font-variant: small-caps;
+			text-align: ;  margin-collapse:collapse; page-break-after:avoid; }
+		h5 {	font-weight: bold; font-size: 11pt; color: #000000; margin-top: 8pt; margin-bottom: 10pt; 
+			text-align: ;  page-break-after:avoid; }
+		h6 {	font-weight: bold; font-size: 7pt; color: #333333; margin-top: 6pt; margin-bottom: ; 
+			text-align: ;  page-break-after:avoid; }
+
+		.div-container{
+			margin-left: 26pt;
+		}
+		.spacetext{
+			padding-left: 10px;
+		}
+		.text-center{
+			text-align: center;
+		}
+		.text-right{
+			text-align: right;
+		}
+		.right {
+		    position: absolute;
+		    right: 20px;
+		    width: 300px;
+		    padding: 6px;
+		    text-align: center;
+		}
+

@@ -1,0 +1,85 @@
+
+		body { font-family: THSaraban,AngsanaUPC, MS Sans Serif; font-size: 10pt; line-height: 12pt;}
+		p { margin:0pt;}
+		p.stb { text-indent: 2em; margin:0pt;/*text-align: justify;*/ }
+		p.mtb { text-indent: 4em;margin:0pt;}
+		p.ltb { text-indent: 7em;margin:0pt;}
+		p.center-page { text-indent: 28em;}
+
+		table {font-family: THSaraban,AngsanaUPC, MS Sans Serif; font-size: 10pt;  line-height: 14pt;
+			margin-top: 2pt;border-collapse: collapse;  }
+
+		thead {	font-weight: bold; vertical-align: bottom; word-wrap:break-word;}
+		tfoot {	font-weight: bold; vertical-align: top; word-wrap:break-word;}
+		thead td { font-weight: bold; word-wrap:break-word;}
+		tfoot td { font-weight: bold; word-wrap:break-word;}
+
+		thead td, thead th, tfoot td, tfoot th { font-variant: small-caps; }
+
+		.headerrow td, .headerrow th { background-gradient: linear #b7cebd #f5f8f5 0 1 0 0.2;  }
+		
+	/*	th {
+			font-weight: bold;
+			vertical-align: middle; 
+			text-align:left; 
+			padding-left: 5px; 
+			padding-right: 5px; 
+			padding-top: 5px; 
+			padding-bottom: 2px; 
+			font-size: 10pt;
+		 }*/
+
+		td {
+			padding-left: 3px; 
+			word-wrap:break-word; 
+		 }
+		table.table-border {
+		    border: 1px solid black;
+		}
+		table.table-border-white {
+		    border-top: 1px solid #FFFFFF;
+		    border-left: 1px solid #FFFFFF;
+		    border-right: 1px solid #FFFFFF;
+		    border-bottom: 1px solid black;
+		}
+		th.td-border-top, td.td-border-top {
+		    border-top: 1px solid black;
+		}
+		th.td-border-bottom, td.td-border-bottom { 
+			border-bottom:1pt solid black;
+		 }
+		th.td-border-left, td.td-border-left { 
+			border-left:1pt solid black;
+	 	}
+		td.td-padding-none {	padding: 0mm; }
+		th p { text-align: left; margin:0pt; word-wrap:break-word;  }
+		td p { text-align: left; margin:0pt; word-wrap:break-word;  }
+
+		hr.style1 {	width: 70%; height: 1px; 
+			text-align: center; color: #999999; 
+			margin-top: 8pt; margin-bottom: 8pt; }
+
+		}
+		a {	color: #000066; font-style: normal; text-decoration: underline; 
+			font-weight: normal; }
+
+		ul {	text-indent: 5mm; margin-bottom: 9pt; }
+		ol {	text-indent: 5mm; margin-bottom: 9pt; }
+
+		h1 {	font-weight: normal; font-size: 10pt; color: #000000; margin-top: 8pt; margin-bottom: 10pt; 
+			text-align: ;  word-wrap:break-word; page-break-after:avoid; }
+		h2 {	font-weight: normal; font-size: 9pt; word-wrap:break-word; page-break-after:avoid; }
+		.text-center{
+			text-align: center;
+		}
+		.text-right{
+			text-align: right;
+		}
+		.right {
+		    position: absolute;
+		    right: 20px;
+		    width: 300px;
+		    padding: 6px;
+		    text-align: center;
+		}
+
